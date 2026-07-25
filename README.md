@@ -1,0 +1,2 @@
+# Load-Balancing-in-SDN-Network-Using-Reinforcement-Learning
+This project presents an intelligent SDN load-balancing framework using Q-Learning to dynamically optimize traffic routing. Built with Python, Mininet, and Ryu and custom topology, the system updates a global Q-table using real-time network statistics. Comparative analyses prove it outperforms traditional routing and achieving 13.4 Gbps bandwidth.
