@@ -87,3 +87,20 @@ The proposed Reinforcement Learning-based SDN load-balancing framework demonstra
 7. Select optimal forwarding paths dynamically.
 8. Install flow rules in OpenFlow switches.
 9. Evaluate network performance under different traffic scenarios.
+
+---
+
+## Future Enhancements
+
+The proposed SDN load-balancing framework can be further enhanced in several ways to improve scalability, intelligence, and real-world applicability:
+
+- Implement **Deep Reinforcement Learning (DQN, PPO, or A3C)** to improve routing decisions in large and complex network topologies.
+- Integrate **multiple QoS metrics** such as latency, jitter, packet loss, bandwidth utilization, and energy consumption into the reward function for more intelligent path selection.
+- Extend the framework to support **large-scale SDN deployments** with hundreds of switches and hosts.
+- Deploy and evaluate the system in **real-world SDN environments** using hardware OpenFlow switches instead of Mininet simulations.
+- Incorporate **traffic prediction** using Machine Learning or Deep Learning models to proactively avoid congestion before it occurs.
+- Support **multi-controller SDN architectures** to improve scalability, fault tolerance, and controller reliability.
+- Integrate **network security mechanisms**, such as anomaly detection and DDoS attack mitigation, with the reinforcement learning framework.
+- Evaluate the proposed approach in **Cloud Computing, Data Center Networks, IoT, Edge Computing, and 5G/6G network environments**.
+- Develop a **real-time web-based monitoring dashboard** to visualize network topology, traffic statistics, Q-values, and routing decisions.
+- Explore **hybrid optimization techniques** by combining Reinforcement Learning with optimization algorithms such as Genetic Algorithms, Ant Colony Optimization, or Particle Swarm Optimization for enhanced routing performance.
